@@ -42,6 +42,11 @@ rect.addEventListener("mousemove", function (details) {
 })
 
 
-
 // //(left side of rectange, center, highest color density at left side, lowest at center, value of curse)
 // console.log(gsap.utils.mapRange(0, 336, 255, 0, 337));
+
+rect.addEventListener("mouseleave", function(){
+    gsap.to(rect,{
+       backgroundColor: "white",    
+    })
+})
