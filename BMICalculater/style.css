@@ -8,3 +8,36 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form, button{
+    margin: 30px;
+}
+
+form label, input{
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+#results{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+#weight-guide{
+    font-size: 24px;
+    font-weight: 400;
+}
